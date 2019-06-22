@@ -1,0 +1,92 @@
+.select_box_top p {
+	color: rgba(21, 76, 102, 1);
+	margin: 0;
+	margin-left: 5px;
+	padding: 0;
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+
+.select_box_box {
+	position: relative;
+	left: 0;
+	margin: 5px;
+	flex: 1;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.select_box_container {
+	height: 30px;
+	border: 1px solid transparent;
+	background: rgba(21, 76, 102, 1);
+	width: 100%;
+	margin: 0;
+	padding: 2px 0;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 0.75rem;	
+}
+
+.select_box_container:hover{
+	background: rgba(21, 76, 102, .8);
+    -webkit-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+
+.select_box_selected_item {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	padding: 4px 12px;
+	vertical-align: middle;
+}
+
+.select_box_items div {
+	border-bottom: 0.5px solid rgba(221, 221, 221, .4);
+	border-left: 0.5px solid rgba(221, 221, 221, .4);
+	border-right: 0.5px solid rgba(221, 221, 221, .4);
+	padding: 6px;
+	padding-left: 20px;
+	background: rgba(21, 76, 102, .8);	
+}
+
+.select_box_items div:hover {
+	background: rgba(84, 145, 105, 1);
+}
+
+
+.select_box_arrow {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.select_box_arrow_up {
+	position: absolute;
+	top: 9px;
+	left: 8px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+.select_box_arrow_down {
+	position: absolute;
+	top: 11px;
+	left: 8px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 10px solid #fff;
+}

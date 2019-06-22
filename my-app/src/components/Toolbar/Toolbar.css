@@ -1,0 +1,97 @@
+.toolbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(21, 76, 102, .90);
+	height: 56px;
+	z-index: 100;
+}
+/*	background: rgba(83, 60, 105, 1); */
+
+.toolbar:hover,
+.toolbar:active{	
+	background: rgba(21, 76, 102, 0.95);
+    -webkit-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
+}
+
+.toolbar_logo {
+	margin-left: 1.0rem;
+}
+
+.toolbar_logo a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.toolbar_navigation {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1rem;
+}
+
+.toolbar_navigation_items ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: white;
+}
+
+/*
+Probably should be deleted once updated for button ---------------------------------
+*/
+.toolbar_navigation_items ul div {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: white;
+}
+
+/*
+Probably should be deleted once updated for button ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*/
+
+
+.toolbar_navigation_items li {
+	padding: 0 1.0rem;
+}
+
+.spacer {
+	flex: 1;
+}
+
+.toolbar_navigation_items a {
+	color: white;
+	text-decoration: none;
+}
+
+.toolbar_navigation_items a:hover, 
+.toolbar_navigation_items a:active {
+	color: rgba(84, 145, 105, 1);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.toolbar_navigation_items{
+		display: none;
+	}
+}
+
+@media (min-width: 769px) {
+	.toolbar_toggle_button{
+		display: none;
+	}
+	.toolbar_logo{
+		margin-left: 0;
+	}
+}
+
+

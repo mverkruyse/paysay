@@ -1,0 +1,43 @@
+.review_guest_offer_menu{
+	margin: auto;
+	max-width: 1200px;
+	min-width: 1200px;
+	width: 80%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 10px;
+}
+
+.review_guest_offer_menu_navigation{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1rem;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.amenities_menu_button {
+	font-family: 'Karla', sans-serif;	
+	background-color: rgba(21, 76, 102, .8);
+	background-image: linear-gradient(to right, rgba(0, 186, 63, .5), rgba(0, 186, 63, .5), rgba(0, 186, 63, .5));	
+	border: none;
+	color: white;
+	padding: 8px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: .75rem;
+	font-weight: 900;
+	margin: 5px;
+	margin-top: 19px;
+	width: 100%;
+}
+
+.amenities_menu_button:hover {
+	background-color: rgba(21, 76, 102, 1);
+	-webkit-transition: all 150ms linear;
+	-ms-transition: all 150ms linear;
+	transition: all 150ms linear;	
+}

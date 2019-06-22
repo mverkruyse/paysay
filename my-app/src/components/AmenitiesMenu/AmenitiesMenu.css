@@ -1,0 +1,131 @@
+.amenities_menu{
+	margin: auto;
+	max-width: 800px;
+	min-width: 800px;
+	width: 80%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 10px;
+}
+
+.amenities_menu_tab {
+	position: absolute;
+	margin: auto;
+	width: 20%;
+	height: 30px;
+	background: rgba(255,255,255,0.9);
+	margin-top: -40px;
+	margin-left: -10px;
+	max-width: 300px;
+	min-width: 250px;
+}
+
+.amenities_menu_tab_navigation {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.amenities_menu_tab_navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: white;
+	flex: 1;
+	font-size: .75rem;
+	height: 100%;
+	font-weight: 700;
+}
+
+.amenities_menu_tab_navigation_selected {
+	flex: 1; 
+	background: rgba(21, 76, 102, 1);
+}
+
+.amenities_menu_tab_navigation_unselected{
+	flex: 1; 
+}
+
+.amenities_menu_tab_navigation_unselected li a{
+	color: rgba(21, 76, 102, 1)
+}
+
+.amenities_menu_tab_navigation_selected:hover, 
+.amenities_menu_tab_navigation_unselected:hover {
+	flex: 1; 
+	background: rgba(21, 76, 102, 0.6);
+    -webkit-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;	
+}
+
+.amenities_menu_tab_navigation_unselected:hover li a{
+	color: white;
+    -webkit-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;	
+	
+}
+
+.amenities_menu_tab_navigation li {
+	padding: 6px 1.0rem;
+	text-align: center;
+}
+
+.amenities_menu_tab_navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+.amenities_menu_navigation{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1rem;
+}
+
+.amenities_menu_navigation_items ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;	
+}
+
+.amenities_menu_navigation_items li {
+	justify-content: space-around;
+	padding: 0 0.5rem;
+}
+
+.amenities_menu_navigation_items a {
+	color: white;
+	text-decoration: none;
+}
+
+.amenities_menu_spacer {
+	flex: 1;
+}
+
+.amenities_menu_button {
+	font-family: 'Karla', sans-serif;	
+	background-color: rgba(21, 76, 102, .8);
+	background-image: linear-gradient(to right, rgba(0, 186, 63, .5), rgba(0, 186, 63, .5), rgba(0, 186, 63, .5));	
+	border: none;
+	color: white;
+	padding: 8px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: .75rem;
+	font-weight: 900;
+	margin: 5px;
+	margin-top: 19px;
+	width: 100%;
+}
+
+.amenities_menu_button:hover {
+	background-color: rgba(21, 76, 102, 1);
+	-webkit-transition: all 150ms linear;
+	-ms-transition: all 150ms linear;
+	transition: all 150ms linear;	
+}

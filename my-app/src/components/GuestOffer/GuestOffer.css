@@ -1,0 +1,9 @@
+.guest_offer_navigation{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1rem;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+}
